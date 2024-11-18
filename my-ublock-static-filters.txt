@@ -7,7 +7,6 @@ rusbionicle.com##.row1:has(a[href="./memberlist.php?mode=viewprofile&u=1368"])
 rusbionicle.com##.row2:has(a[href="./memberlist.php?mode=viewprofile&u=1368"])
 
 ! XPath filter for quotes and index page
-!rusbionicle.com##:xpath(//div[@class='quotecontent']//preceding-sibling::div[@class='quotetitle' and contains (text(), 'Александр Великий')])
 rusbionicle.com##:xpath(//div[@class='quotecontent' and preceding-sibling::div[@class='quotetitle' and contains (text(), 'Александр Великий')]])
 rusbionicle.com##:xpath(//div[@class='quotetitle' and contains (text(), 'Александр Великий')])
 rusbionicle.com##:xpath(/html/body/table[2]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[descendant::table[@class='contentpaneopen' and descendant::span[contains(text(), 'Александр Великий')]]])
