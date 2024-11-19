@@ -3,13 +3,10 @@ rusbionicle.com##.tablebg:has(.profile a[href="./memberlist.php?mode=viewprofile
 rusbionicle.com##p.topicdetails:has(a[href="./memberlist.php?mode=viewprofile&u=1368"])
 rusbionicle.com##em:has(a[href="./memberlist.php?mode=viewprofile&u=1368"])
 rusbionicle.com##a.username-coloured[href="./memberlist.php?mode=viewprofile&u=1368"]
-rusbionicle.com##.row1:has(a[href="./memberlist.php?mode=viewprofile&u=1368"])
-rusbionicle.com##.row2:has(a[href="./memberlist.php?mode=viewprofile&u=1368"])
 
 ! XPath filter for quotes and index page
-rusbionicle.com##:xpath(//div[@class='quotecontent' and preceding-sibling::div[@class='quotetitle' and contains (text(), 'Александр Великий')]])
 rusbionicle.com##:xpath(//div[@class='quotetitle' and contains (text(), 'Александр Великий')])
 rusbionicle.com##:xpath(/html/body/table[2]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[descendant::table[@class='contentpaneopen' and descendant::span[contains(text(), 'Александр Великий')]]])
 rusbionicle.com##:xpath(//div[descendant::table[@class='contentpaneopen' and descendant::span[contains(text(), 'Александр Великий')]]])
-rusbionicle.com##:xpath(//table[@class='contentpaneopen'][.//span[contains(text(), 'Александр Великий')]])
-rusbionicle.com##:xpath(//table[@class='contentpaneopen'][.//span[contains(text(), 'Александр Великий')]]//preceding-sibling::table)
+rusbionicle.com##:xpath(//table[@class='contentpaneopen' and descendant::span[contains(text(), 'Александр Великий')]])
+rusbionicle.com##a[href*="u=1368"]:style(color: transparent !important; position: relative !important; left: -9999px !important;)
